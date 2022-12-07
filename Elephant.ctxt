@@ -2,8 +2,12 @@
 comment0.target=Elephant
 comment0.text=\r\n\ The\ Elephant.\r\n\ \r\n\ @author\ Gladys\ \r\n\ @version\ December\ 2022\r\n
 comment1.params=
-comment1.target=void\ act()
+comment1.target=Elephant()
 comment2.params=
-comment2.target=void\ eat()
-comment2.text=\r\n\ Eat\ the\ apple\ and\ spawn\ new\ apple\ if\ an\ apple\ is\ eaten\r\n
-numComments=3
+comment2.target=void\ animateElephant()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ eat()
+comment4.text=\r\n\ Eat\ the\ apple\ and\ spawn\ new\ apple\ if\ an\ apple\ is\ eaten\r\n
+numComments=5

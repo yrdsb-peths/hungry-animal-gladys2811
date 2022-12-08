@@ -25,6 +25,8 @@ public class Elephant extends Actor
         for(int i = 0; i < idleLeft.length; i++)
         {
             idleLeft[i] = new GreenfootImage("images/elephant_idle/idle" + i + ".png");
+            idleLeft[i].mirrorHorizontally();
+            idleLeft[i].scale(100, 100);
         }
         setImage(idleRight[0]);
     }
@@ -34,8 +36,13 @@ public class Elephant extends Actor
     {
         if (facing.equals("right"))
         {
-            setImage(idle[imageIndex]);
-            imageIndex = (imageIndex + 1) % idle.length;
+            setImage(idleRight[imageIndex]);
+            imageIndex = (imageIndex + 1) % idleRight.length;
+        }
+        else
+        {
+            setImage(idleLeft[imageIndex]);
+            imageIndex = (imageIndex + 1) % idleLeft.length;
         }
     }
     

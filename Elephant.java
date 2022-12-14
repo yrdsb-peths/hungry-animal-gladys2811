@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * The Elephant.
  * 
- * @author Gladys, editor liyu
+ * @author Gladys, editor liyu xiao
  * 
  * @version December 2022
  */

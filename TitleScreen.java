@@ -7,7 +7,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class TitleScreen extends World
 {
-    Label titleLabel = new Label ("Hungry Elephant", 100);
+    Label titleLabel = new Label ("The Elephant", 100);
     /**
      * Constructor for objects of class TitleScreen.
      * 
@@ -16,10 +16,11 @@ public class TitleScreen extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
-        
-        addObject(titleLabel, getWidth()/2, getHeight()/2);
+
+        addObject(titleLabel, getWidth()/2, 200);
+        prepare();
     }
-    
+
     /**
      * Main world act loop
      */
@@ -30,5 +31,16 @@ public class TitleScreen extends World
             MyWorld gameWorld = new MyWorld();
             Greenfoot.setWorld(gameWorld);
         }
+    }
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        Elephant elephant = new Elephant();
+        addObject(elephant,406,83);
+        elephant.setLocation(421,89);
+        elephant.setLocation(432,82);
     }
 }

@@ -3,7 +3,8 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 /**
  * The Elephant.
  * 
- * @author Gladys 
+ * @author Gladys, editor liyu
+ * 
  * @version December 2022
  */
 public class Elephant extends Actor

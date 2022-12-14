@@ -24,9 +24,15 @@ dependency7.from=Elephant
 dependency7.to=Apple
 dependency7.type=UsesDependency
 editor.fx.0.height=739
+<<<<<<< Updated upstream
 editor.fx.0.width=940
 editor.fx.0.x=986
 editor.fx.0.y=160
+=======
+editor.fx.0.width=1089
+editor.fx.0.x=762
+editor.fx.0.y=85
+>>>>>>> Stashed changes
 height=1056
 package.numDependencies=7
 package.numTargets=5

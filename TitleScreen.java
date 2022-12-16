@@ -52,4 +52,3 @@ public class TitleScreen extends World
         label2.setLocation(327,228);
     }
 }
-

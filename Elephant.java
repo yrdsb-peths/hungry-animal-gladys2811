@@ -73,6 +73,32 @@ public class Elephant extends Actor
         animateElephant();
     }
     
+    public void move()
+    {
+        int x = getX();
+        int y = getY();
+        if (Greenfoot.isKeyDown("W"))
+        {
+            y-=2;
+        }
+        if (Greenfoot.isKeyDown("A"))
+        {
+            x-=2;
+            facing = "left";
+        }
+        if (Greenfoot.isKeyDown("S"))
+        {
+            y+=2;
+        }
+        if (Greenfoot.isKeyDown("D"))
+        {
+            x+=2;
+            facing = "right";
+        }
+        setLocation(x, y);
+        eat();
+        animateElephant();
+    }
     /**
      * Eat the apple and spawn new apple if an apple is eaten
      */

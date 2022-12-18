@@ -42,6 +42,7 @@ public class TitleScreen extends World
         Elephant elephant = new Elephant();
 <<<<<<< Updated upstream
         addObject(elephant,395,98);
+<<<<<<< Updated upstream
         Label label = new Label("Press <space> to start!", 40);
         addObject(label,232,244);
         Label label2 = new Label("Use \u2190 and \u2192 to move!", 40);
@@ -61,6 +62,14 @@ public class TitleScreen extends World
         Label label2 = new Label("Press < space > to start!", 40);
         addObject(label2,292,322);
         label.setLocation(349,286);
+>>>>>>> Stashed changes
+=======
+        Label label = new Label("Press < space > to start!", 40);
+        addObject(label,312,291);
+        Label label2 = new Label("Use \u2190 and \u2192 to move", 40);
+        addObject(label2,324,363);
+        label2.setLocation(293,340);
+        elephant.setLocation(506,199);
 >>>>>>> Stashed changes
     }
 }

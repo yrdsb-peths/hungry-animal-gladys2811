@@ -53,33 +53,13 @@ public class Elephant extends Actor
         }
     }
     
-    public void act()
-    {
-        if (Greenfoot.isKeyDown ("left"))
-        {
-            move (-2);
-            facing = "left";
-        }
-        else if (Greenfoot.isKeyDown("right"))
-        {
-            move(2);
-            facing = "right";
-        }
-        
-        //Remove apple if elephant eats it
-        eat();
-        
-        //Animate the elephant
-        animateElephant();
-    }
-    
     public void move()
     {
         int x = getX();
         int y = getY();
         if (Greenfoot.isKeyDown("W"))
         {
-            y-=2;
+            y -=2;
         }
         if (Greenfoot.isKeyDown("A"))
         {

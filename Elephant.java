@@ -52,7 +52,10 @@ public class Elephant extends Actor
             imageIndex = (imageIndex + 1) % idleLeft.length;
         }
     }
-    
+    public void act()
+    {
+        move();
+    }
     public void move()
     {
         int x = getX();

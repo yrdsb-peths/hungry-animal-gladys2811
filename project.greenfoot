@@ -27,10 +27,39 @@ dependency7.type=UsesDependency
 dependency8.from=Elephant
 dependency8.to=Apple
 dependency8.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=552
 editor.fx.0.y=100
+=======
+dependency9.from=Elephant
+dependency9.to=MyWorld
+dependency9.type=UsesDependency
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=1090
+editor.fx.0.y=172
+=======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+>>>>>>> 82153e3a389230d2df4773fe111d2996dc958e77
 height=1056
 package.numDependencies=8
 package.numTargets=6
